@@ -36,7 +36,7 @@ img#marcozero1{
 section{
     border-radius: 5px;
     padding: 10px;
-    background-color: rgba(165, 162, 165, 0.581);
+    background-color: rgba(162, 131, 31, 0.179);
 }
 
 h2{
@@ -59,8 +59,9 @@ footer{
     background-color: rgb(244, 145, 15);
     justify-content: space-between;
     border-radius: 5px;
-    padding: 6px;
-    margin-top: 10px;
+    margin-top: 50px;
+    padding: 10px;
+   
 }
 footer nav ul{
     list-style: none;
@@ -72,5 +73,14 @@ footer nav ul{
 h2#logo_footer{
     display: flex;
     justify-content: flex-start;
-    padding-left: 40px;
+    padding-top: 60px;
+    padding-left: 30px
+}
+a:link{
+    text-decoration: none;
+}
+h3#redes_sociais{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
 }
