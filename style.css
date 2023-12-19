@@ -1,0 +1,76 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgba(243, 180, 73, 0.363);
+}
+
+
+h1#logo_header{
+    color: rgb(2, 43, 83);
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}    
+
+header{
+    background-color: rgb(244, 145, 15);
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 100px;
+}
+ul#lista_header{
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+    list-style:none  
+}
+img#marcozero1{
+  margin-left: 28%;
+}
+section{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(165, 162, 165, 0.581);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+aside ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+    list-style: none;
+    margin-top: 100px; 
+}
+iframe#video_marcozero{
+    align-items: center;
+    padding-left: 35%;
+}
+footer{
+    background-color: rgb(244, 145, 15);
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 10px;
+}
+footer nav ul{
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+h2#logo_footer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
